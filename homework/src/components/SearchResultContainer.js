@@ -8,6 +8,10 @@ class SearchResultContainer extends Component {
         search: "",
         results: []
     }
+    
+  componentDidMount() {
+    this.ApiCall();
+  }
 
     ApiCall = () => {
         API.search()
@@ -15,7 +19,6 @@ class SearchResultContainer extends Component {
             )
             .catch(err => console.log(err));
     };
-
 
     handleInputChange = event => {
         const name = event.target.name;
@@ -34,8 +37,9 @@ class SearchResultContainer extends Component {
         return (
             <div>
                 <SearchForm
-                 search = {this.state.search}
-                 handleFormSubmit = {this.handleFormSubmit}
+                 //search = {this.state.search}
+                 //handleFormSubmit = {this.handleFormSubmit}
+                 handleInputChange= {this.handleInputChange}
                  
                 />
                 <ResultList results={this.state.results} />
