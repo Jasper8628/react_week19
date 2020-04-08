@@ -1,16 +1,18 @@
 import React from "react";
 
 function ResultList(props) {
-    console.log(props);
     return (
-        <table className="list-group">
+        <table className="table">
             <thead>
-                <tr>
-                    <th>Photo</th>
-                    <th> Name</th>
-                    <th>Email</th>
-                    <th>Phone Number</th>
-                    <th>Age</th>
+                <tr >
+                    <th scope="col">Photo</th>
+                    <th scope="col"> Name</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Phone Number</th>
+                    <th scope="col"  >Age <button 
+                    name="age"
+                    type="button"
+                    onClick={props.handleSort}>{props.buttName}</button> </th>
                 </tr>
 
             </thead>
