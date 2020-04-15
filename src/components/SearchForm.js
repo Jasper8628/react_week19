@@ -24,9 +24,6 @@ function SearchForm(props) {
           placeholder="Search by last name"
          
         />
-        {/* <button onClick={props.handleFormSubmit} className="btn btn-primary mt-3">
-          Search
-        </button> */}
       </div>
     </form>
   );
