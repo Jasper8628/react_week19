@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Jasper8628/react_week19/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/Jasper8628/react_week19/static/js/main.2c91e1ce.chunk.js",
+    "main.js.map": "/Jasper8628/react_week19/static/js/main.2c91e1ce.chunk.js.map",
+    "runtime-main.js": "/Jasper8628/react_week19/static/js/runtime-main.c6520a79.js",
+    "runtime-main.js.map": "/Jasper8628/react_week19/static/js/runtime-main.c6520a79.js.map",
+    "static/js/2.4a777a31.chunk.js": "/Jasper8628/react_week19/static/js/2.4a777a31.chunk.js",
+    "static/js/2.4a777a31.chunk.js.map": "/Jasper8628/react_week19/static/js/2.4a777a31.chunk.js.map",
+    "index.html": "/Jasper8628/react_week19/index.html",
+    "precache-manifest.a1bbc8824bcdfa592d862a36e0727e04.js": "/Jasper8628/react_week19/precache-manifest.a1bbc8824bcdfa592d862a36e0727e04.js",
+    "service-worker.js": "/Jasper8628/react_week19/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "/Jasper8628/react_week19/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.4a777a31.chunk.js.LICENSE.txt": "/Jasper8628/react_week19/static/js/2.4a777a31.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c6520a79.js",
+    "static/js/2.4a777a31.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.2c91e1ce.chunk.js"
+  ]
+}
